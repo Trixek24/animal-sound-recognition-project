@@ -1,0 +1,44 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(195, 224, 249);
+}
+
+#header_div
+{
+    background-color: white;
+    color: rgb(255, 61, 61);
+}
+
+#header_div p
+{
+    font-weight: 300;
+    letter-spacing:2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#main_div button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    width: 100px;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+.copy_right_footer
+{
+    background-color: white;
+    color: rgb(255, 61, 61);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    line-height: 0;
+    text-shadow: 5px 5px 5px rgb(152, 149, 149);
+}
+
+#animal_count
+{
+    font-size: 20px;
+}

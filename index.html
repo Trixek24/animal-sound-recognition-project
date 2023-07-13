@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sound Recogniton Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="col-xs-12 text-center" id="header_div">
+    <h2>Hear Aid</h2>
+    <p>Instructions - Play diffrent sounds like barking,meowing,mooing, and baaing</p>
+  </div>
+  <div id="main_div">
+    <center>
+        <button class="btn btn-success" onclick="startClassification()">Start</button>
+
+          <p id="animal_count">
+            Dog-<p id="dog_count"></p>
+            Cat-<p id="cat_count"></p>
+            Sheep-<p id="sheep_count"></p>
+            Cow-<p id="cow_count"></p>
+          </p>
+
+        <h3 id="class_name">Animal</h3>
+        <br>
+        <img id="animal_img" src="background_noise.jpg" width="350px" height="300px">
+    </center>
+  </div>
+  <div class="copy_right_footer">
+    <h4>Developed By - Eric Joseph</h4>
+  </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
